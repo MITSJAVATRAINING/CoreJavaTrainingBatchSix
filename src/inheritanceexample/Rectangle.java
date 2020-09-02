@@ -14,4 +14,8 @@ public class Rectangle extends Shape {
 		rec.calculateArea(5, 7);
 	}
 
+	void calculateArea() {
+		System.out.println("Inside Calculate");
+	}
+
 }
